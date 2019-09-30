@@ -1,0 +1,13 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: eureka-register
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:1110/eureka/
+#  server:
+#    enable-self-preservation: false #单机开发中关闭自我保护机制，以使注册中心能及时剔除失效的服务
