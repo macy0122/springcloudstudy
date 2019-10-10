@@ -16,7 +16,6 @@
         <sourceOutputDir name="../eurekademo01/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../eurekademo01/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekademo01 (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

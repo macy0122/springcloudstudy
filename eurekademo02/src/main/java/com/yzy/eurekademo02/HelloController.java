@@ -13,6 +13,7 @@ public class HelloController {
 
 	@GetMapping("hello")
 	public String HiController() {
+		System.out.println("===========com.yzy.eurekademo02=============");
 		return "Hello " + name + ",your age is " + age;
 	}
 }

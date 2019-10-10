@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eurekademo01/eurekademo01.iml" filepath="$PROJECT_DIR$/eurekademo01/eurekademo01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekademo01_1/eurekademo01 (1).iml" filepath="$PROJECT_DIR$/eurekademo01_1/eurekademo01 (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo01_1/eurekademo01_1.iml" filepath="$PROJECT_DIR$/eurekademo01_1/eurekademo01_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo02/eurekademo02.iml" filepath="$PROJECT_DIR$/eurekademo02/eurekademo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo02_1/eurekademo02_1.iml" filepath="$PROJECT_DIR$/eurekademo02_1/eurekademo02_1.iml" />
