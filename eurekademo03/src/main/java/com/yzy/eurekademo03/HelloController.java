@@ -10,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 public class HelloController {
 
 	@Autowired
-	@LoadBalanced  // Ribbon负载均衡
 	RestTemplate restTemplate;
 
 	@GetMapping("hi")
