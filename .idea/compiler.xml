@@ -12,11 +12,6 @@
         <module name="eurekademo03" />
         <module name="eurekademo02" />
       </profile>
-      <profile name="Annotation profile for springcloudstudy" enabled="true">
-        <sourceOutputDir name="../eurekademo01/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../eurekademo01/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekademo01" target="1.8" />
