@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FeignClient1Impl {
+public class FeignController {
 
 	@Autowired
 	FeignClient1 client1;
 
 	@GetMapping("/hc")
-	public String helloService() {
+	public String hcController() {
 		return client1.helloService();
 	}
 }
