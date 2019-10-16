@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekademo01_1" />
-        <module name="eurekademo01" />
         <module name="eurekademo02_1" />
+        <module name="feigndemo01" />
         <module name="eurekademo03" />
         <module name="eurekademo02" />
+        <module name="eurekademo01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="eurekademo02" target="1.8" />
       <module name="eurekademo02_1" target="1.8" />
       <module name="eurekademo03" target="1.8" />
+      <module name="feigndemo01" target="1.8" />
       <module name="springcloudstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -31,6 +33,7 @@
       <module name="eurekademo02" options="-parameters" />
       <module name="eurekademo02_1" options="-parameters" />
       <module name="eurekademo03" options="-parameters" />
+      <module name="feigndemo01" options="-parameters" />
       <module name="springcloudstudy" options="-parameters" />
     </option>
   </component>
