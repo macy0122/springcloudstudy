@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekademo02_1/eurekademo02_1.iml" filepath="$PROJECT_DIR$/eurekademo02_1/eurekademo02_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo03/eurekademo03.iml" filepath="$PROJECT_DIR$/eurekademo03/eurekademo03.iml" />
       <module fileurl="file://$PROJECT_DIR$/feigndemo01/feigndemo01.iml" filepath="$PROJECT_DIR$/feigndemo01/feigndemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudstudy.iml" filepath="$PROJECT_DIR$/springcloudstudy.iml" />
     </modules>
   </component>
 </project>
