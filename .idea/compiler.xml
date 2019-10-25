@@ -9,6 +9,7 @@
         <module name="eurekademo01_1" />
         <module name="eurekademo02_1" />
         <module name="feigndemo01" />
+        <module name="zuuldemo01" />
         <module name="eurekademo03" />
         <module name="eurekademo02" />
         <module name="eurekademo01" />
@@ -22,6 +23,7 @@
       <module name="eurekademo03" target="1.8" />
       <module name="feigndemo01" target="1.8" />
       <module name="springcloudstudy" target="1.8" />
+      <module name="zuuldemo01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="eurekademo02_1" options="-parameters" />
       <module name="eurekademo03" options="-parameters" />
       <module name="feigndemo01" options="-parameters" />
+      <module name="zuuldemo01" options="-parameters" />
     </option>
   </component>
 </project>
