@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/feigndemo01/feigndemo01.iml" filepath="$PROJECT_DIR$/feigndemo01/feigndemo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudstudy.iml" filepath="$PROJECT_DIR$/springcloudstudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuuldemo01/zuuldemo01.iml" filepath="$PROJECT_DIR$/zuuldemo01/zuuldemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuuldemo02/zuuldemo02.iml" filepath="$PROJECT_DIR$/zuuldemo02/zuuldemo02.iml" />
     </modules>
   </component>
 </project>
