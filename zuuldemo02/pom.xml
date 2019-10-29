@@ -3,16 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.yzy</groupId>
+		<artifactId>springcloudstudy</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.yzy</groupId>
-	<artifactId>springcloudstudy</artifactId>
+	<artifactId>zuuldemo02</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springcloudstudy</name>
-	<packaging>pom</packaging>
+	<name>zuuldemo02</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,43 +20,26 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-function-context</artifactId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.10</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
-
-	<modules>
-		<module>eurekademo01</module>    <!--注册中心高可用互为注册-->
-		<module>eurekademo01_1</module>  <!--注册中心高可用互为注册-->
-		<module>eurekademo02</module>    <!--服务提供者-->
-		<module>eurekademo02_1</module>  <!--服务提供者-->
-		<module>eurekademo03</module>    <!--服务消费者-->
-		<module>feigndemo01</module>     <!--feign服务消费者-->
-		<module>zuuldemo01</module>      <!--zuul网管-->
-		<module>zuuldemo02</module>      <!--zuul网管-->
-	</modules>
 
 	<dependencyManagement>
 		<dependencies>
@@ -79,5 +61,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+		</repository>
+	</repositories>
 
 </project>
