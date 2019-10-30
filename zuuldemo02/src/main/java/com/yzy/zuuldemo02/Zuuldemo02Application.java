@@ -15,9 +15,4 @@ public class Zuuldemo02Application {
 		SpringApplication.run(Zuuldemo02Application.class, args);
 	}
 
-	@Bean
-	public AccessFilter accessFilter() {
-		return new AccessFilter();
-	}
-
 }
