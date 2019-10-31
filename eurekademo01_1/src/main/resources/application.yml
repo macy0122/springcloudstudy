@@ -8,6 +8,6 @@ eureka:
     hostname: eureka-register2
   client:
     service-url:
-      defaultZone: http://eureka-register1:1110/eureka/
+      defaultZone: http://eureka-register1:1110/eureka/,http://eureka-register2:1111/eureka/
 #  server:
 #    enable-self-preservation: false #单机开发中关闭自我保护机制，以使注册中心能及时剔除失效的服务
