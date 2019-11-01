@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client1/config-client1.iml" filepath="$PROJECT_DIR$/config-client1/config-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo01/eurekademo01.iml" filepath="$PROJECT_DIR$/eurekademo01/eurekademo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekademo01_1/eurekademo01_1.iml" filepath="$PROJECT_DIR$/eurekademo01_1/eurekademo01_1.iml" />

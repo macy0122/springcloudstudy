@@ -1,0 +1,10 @@
+server:
+  port: 1119
+spring:
+  application:
+    name: config-client1
+  cloud:
+    config:
+      uri: http://localhost:1118/
+      profile: default
+      label: master

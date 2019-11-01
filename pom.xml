@@ -24,10 +24,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-function-context</artifactId>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -57,7 +53,8 @@
 		<module>feigndemo01</module>     <!--feign服务消费者-->
 		<module>zuuldemo01</module>      <!--zuul网管-->
 		<module>zuuldemo02</module>      <!--zuul网管-->
-		<module>config-server</module>      <!--zuul网管-->
+		<module>config-server</module>       <!--config配置中心服务端-->
+		<module>config-client1</module>      <!--config配置中心客户端-->
 	</modules>
 
 	<dependencyManagement>
