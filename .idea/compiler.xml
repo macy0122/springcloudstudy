@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekademo01_1" />
         <module name="eurekademo02_1" />
+        <module name="config-server" />
         <module name="feigndemo01" />
         <module name="zuuldemo02" />
         <module name="zuuldemo01" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway-dynamic-route" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eurekademo01" target="1.8" />
       <module name="eurekademo01_1" target="1.8" />
       <module name="eurekademo02" target="1.8" />
@@ -32,6 +34,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway-dynamic-route" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eurekademo01" options="-parameters" />
       <module name="eurekademo01_1" options="-parameters" />
       <module name="eurekademo02" options="-parameters" />

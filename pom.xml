@@ -57,6 +57,7 @@
 		<module>feigndemo01</module>     <!--feign服务消费者-->
 		<module>zuuldemo01</module>      <!--zuul网管-->
 		<module>zuuldemo02</module>      <!--zuul网管-->
+		<module>config-server</module>      <!--zuul网管-->
 	</modules>
 
 	<dependencyManagement>
