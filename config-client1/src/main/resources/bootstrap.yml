@@ -2,7 +2,7 @@ server:
   port: 1119
 spring:
   application:
-    name: config-client1
+    name: config-git
   cloud:
     config:
       uri: http://localhost:1118/
