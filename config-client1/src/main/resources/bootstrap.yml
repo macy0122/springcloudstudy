@@ -5,6 +5,13 @@ spring:
     name: config-git
   cloud:
     config:
-      uri: http://localhost:1118/
-      profile: default
-      label: master
+#      uri: http://localhost:1118/
+#      profile: default
+#      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1110/eureka/
