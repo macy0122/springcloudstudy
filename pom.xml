@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>Hoxton.M3</spring-cloud.version>
+		<spring-cloud.version>Hoxton.RC1</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -24,7 +24,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -46,15 +49,17 @@
 
 	<modules>
 		<module>eurekademo01</module>    <!--注册中心高可用互为注册-->
-		<module>eurekademo01_1</module>  <!--注册中心高可用互为注册-->
-		<module>eurekademo02</module>    <!--服务提供者-->
-		<module>eurekademo02_1</module>  <!--服务提供者-->
-		<module>eurekademo03</module>    <!--服务消费者-->
-		<module>feigndemo01</module>     <!--feign服务消费者-->
-		<module>zuuldemo01</module>      <!--zuul网管-->
-		<module>zuuldemo02</module>      <!--zuul网管-->
-		<module>config-server</module>       <!--config配置中心服务端-->
-		<module>config-client1</module>      <!--config配置中心客户端-->
+<!--		<module>eurekademo01_1</module>  &lt;!&ndash;注册中心高可用互为注册&ndash;&gt;-->
+<!--		<module>eurekademo02</module>    &lt;!&ndash;服务提供者&ndash;&gt;-->
+<!--		<module>eurekademo02_1</module>  &lt;!&ndash;服务提供者&ndash;&gt;-->
+<!--		<module>eurekademo03</module>    &lt;!&ndash;服务消费者&ndash;&gt;-->
+<!--		<module>feigndemo01</module>     &lt;!&ndash;feign服务消费者&ndash;&gt;-->
+<!--		<module>zuuldemo01</module>      &lt;!&ndash;zuul网管&ndash;&gt;-->
+<!--		<module>zuuldemo02</module>      &lt;!&ndash;zuul网管&ndash;&gt;-->
+<!--		<module>config-server</module>       &lt;!&ndash;config配置中心服务端&ndash;&gt;-->
+<!--		<module>config-client1</module>      &lt;!&ndash;config配置中心客户端&ndash;&gt;-->
+<!--		<module>rabbitmqdemo01</module>      &lt;!&ndash;rabbitmq消息&ndash;&gt;-->
+<!--		<module>rabbitmqdemo02</module>      &lt;!&ndash;rabbitmq消息&ndash;&gt;-->
 	</modules>
 
 	<dependencyManagement>

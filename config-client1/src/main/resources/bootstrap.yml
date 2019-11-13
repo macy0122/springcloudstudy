@@ -8,9 +8,12 @@ spring:
 #      uri: http://localhost:1118/
 #      profile: default
 #      label: master
+#     从注册中心根据服务ID发现config-server服务并调用
       discovery:
         enabled: true
         service-id: config-server
+#     失败快速响应与重试
+      fail-fast: true
 eureka:
   client:
     service-url:
